@@ -1,8 +1,8 @@
-#footer {
-  color: #ffffff;
+.footer {
+  color: #f4f4fd;
   background-color: #2e2f42;
 }
 
-#footer .logo {
-  color: #ffffff;
+.footer .logo {
+  color: #f4f4fd;
 }

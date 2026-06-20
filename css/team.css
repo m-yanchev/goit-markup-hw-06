@@ -1,15 +1,12 @@
-#team {
+.team {
   background-color: #f4f4fd;
 }
 
-#team li {
+.team-card {
   background-color: #ffffff;
 }
 
-#team h3 {
-  text-align: center;
-}
-
-#team p {
+.team .card-title,
+.team .card-content {
   text-align: center;
 }

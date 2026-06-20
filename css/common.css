@@ -1,60 +1,44 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
+  background-color: #ffffff;
+  letter-spacing: 0.02em;
 }
 
 a {
   color: #434455;
   text-decoration: none;
-  font-style: normal;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
-a:hover,
-a:focus {
-  color: #404bbf;
+address {
+  font-style: normal;
 }
 
 ul {
   list-style-type: none;
 }
 
-h1 {
-  color: #ffffff;
-  font-size: 56px;
-  line-height: 1.07;
-  letter-spacing: 2%;
-  text-align: center;
-}
-
-h2 {
+.section-title {
   color: #2e2f42;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 2%;
   text-align: center;
 }
 
-h3 {
+.card-title {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 2%;
 }
 
-p {
+.card-content {
   line-height: 1.5;
-  letter-spacing: 2%;
 }
 
 button {
-  color: #ffffff;
-  background-color: #4d5ae5;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 4%;
   cursor: pointer;
 }
 
@@ -69,7 +53,7 @@ button:focus {
   line-height: 1.33;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
 }
 
 .logo span {

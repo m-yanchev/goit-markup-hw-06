@@ -1,15 +1,13 @@
-#header .logo {
+.header .logo {
   color: #2e2f42;
 }
 
-.nav-menu a {
+.nav-menu .link {
+  color: #2e2f42;
   font-weight: 500;
 }
 
-.nav-menu a:normal {
-  color: #2e2f42;
-}
-
-address a {
-  font-weight: 400;
+.link:hover,
+.link:focus {
+  color: #404bbf;
 }
