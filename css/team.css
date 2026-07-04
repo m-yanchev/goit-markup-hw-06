@@ -31,5 +31,10 @@
 }
 
 .team .social-list {
-  justify-content: space-between;
+  gap: 24px;
+}
+
+.team .social-link:hover,
+.team .social-link:focus {
+  background-color: #404bbf;
 }
