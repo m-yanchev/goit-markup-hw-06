@@ -7,6 +7,24 @@
   flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
+.feature-icon-container {
+  position: relative;
+  height: 112px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+  margin-bottom: 8px;
+}
+
+.feature-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 64px;
+  height: 64px;
+}
+
 .features .card-title,
 .features .card-paragraph {
   text-align: left;

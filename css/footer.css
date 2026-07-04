@@ -4,8 +4,13 @@
   padding: 100px 0;
 }
 
+.footer .container {
+  display: flex;
+}
+
 .left {
   max-width: 264px;
+  margin-right: 120px;
 }
 
 .footer .logo {
@@ -15,4 +20,15 @@
 
 .footer-text {
   line-height: 1.5;
+}
+
+.footer-socials-caption {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.footer .social-list {
+  gap: 16px;
 }
