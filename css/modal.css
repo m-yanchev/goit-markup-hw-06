@@ -35,6 +35,9 @@
 }
 
 .modal-close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 24px;
   right: 24px;
@@ -55,13 +58,6 @@
   background-color: #404bbf;
   border-color: #404bbf;
   fill: #ffffff;
-}
-
-.modal-close-icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 .modal-title {
@@ -226,5 +222,6 @@
 }
 
 .modal-agreement-link {
+  text-decoration: underline;
   color: #4d5ae5;
 }
