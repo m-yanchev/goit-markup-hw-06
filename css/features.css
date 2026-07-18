@@ -1,29 +1,108 @@
+.features .container {
+  padding: 0 16px;
+}
+
 .features-list {
   display: flex;
-  gap: 24px;
 }
 
-.feature-card {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+@media (max-width: 320px) {
+  .features-list {
+    min-width: 320px;
+  }
 }
 
-.feature-icon-container {
-  position: relative;
-  height: 112px;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  background-color: #f4f4fd;
+@media (max-width: 768px) {
+  .features-list {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1158px) {
+  .features-list {
+    flex-wrap: wrap;
+  }
+
+  .feature-card {
+    flex-basis: calc((100% - 24px) / 2);
+  }
+}
+
+@media (min-width: 768px) {
+  .features-list {
+    column-gap: 24px;
+  }
+}
+
+@media (max-width: 1158px) {
+  .features-list {
+    row-gap: 72px;
+  }
+}
+
+@media (min-width: 1158px) {
+  .features .container {
+    padding: 0 15px;
+  }
+
+  .feature-card {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+  }
+}
+
+@media (max-width: 1158px) {
+  .feature-icon-container {
+    display: none;
+  }
+}
+
+@media (min-width: 1158px) {
+  .feature-icon-container {
+    position: relative;
+    height: 112px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+    margin-bottom: 8px;
+  }
+
+  .feature-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.feature-card-title {
   margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  color: #2e2f42;
+  text-align: center;
 }
 
-.feature-icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.feature-card-paragraph {
+  line-height: 1.5;
 }
 
-.features .card-title,
-.features .card-paragraph {
-  text-align: left;
+@media (min-width: 768px) {
+  .feature-card-title {
+    text-align: left;
+  }
+}
+
+@media (max-width: 1158px) {
+  .feature-card-paragraph {
+    font-weight: 500;
+  }
+}
+
+@media (min-width: 1158px) {
+  .feature-card-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
 }
