@@ -6,12 +6,6 @@
   display: flex;
 }
 
-@media (max-width: 319.5px) {
-  .features-list {
-    min-width: 320px;
-  }
-}
-
 @media (max-width: 767.5px) {
   .features-list {
     flex-direction: column;

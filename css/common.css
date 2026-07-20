@@ -67,6 +67,8 @@ button {
 .container {
   overflow: hidden;
   max-width: 320px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin: 0 auto;
 }
 
@@ -79,6 +81,8 @@ button {
 @media (min-width: 1158px) {
   .container {
     max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
