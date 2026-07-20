@@ -2,6 +2,10 @@
   background-color: #f4f4fd;
 }
 
+.team .container {
+  padding: 0 16px;
+}
+
 .team .section-title {
   margin-bottom: 72px;
 }
@@ -10,7 +14,7 @@
   display: flex;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 319.5px) {
   .team .section-title {
     min-width: 264px;
   }
@@ -20,7 +24,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.5px) {
   .team-list {
     flex-direction: column;
     row-gap: 72px;
@@ -28,7 +32,7 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1158px) {
+@media (min-width: 768px) and (max-width: 1157.5px) {
   .team-list {
     justify-content: center;
     flex-wrap: wrap;
@@ -46,6 +50,10 @@
 }
 
 @media (min-width: 1158px) {
+  .team .container {
+    padding: 0 15px;
+  }
+
   .team-list {
     width: 1128px;
   }
