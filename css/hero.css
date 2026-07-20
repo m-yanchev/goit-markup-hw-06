@@ -10,10 +10,6 @@
   padding: 72px 0;
 }
 
-.hero .container {
-  padding: 0 15px;
-}
-
 .hero-title {
   max-width: 216px;
   margin: 0 auto 72px;
@@ -38,10 +34,6 @@
     background-image:
       linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url('../images/tablet-hero-bg.jpg');
-  }
-
-  .hero .container {
-    padding: 0 16px;
   }
 
   .hero-title {
@@ -70,10 +62,6 @@
     background-image:
       linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url('../images/desktop-hero-bg.jpg');
-  }
-
-  .hero .container {
-    padding: 0 15px;
   }
 
   .hero-title {

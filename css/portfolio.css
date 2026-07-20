@@ -1,13 +1,3 @@
-.portfolio .container {
-  padding: 0 16px;
-}
-
-@media (min-width: 1158px) {
-  .portfolio .container {
-    padding: 0 15px;
-  }
-}
-
 .portfolio .section-title {
   margin-bottom: 72px;
 }

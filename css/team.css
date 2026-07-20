@@ -2,10 +2,6 @@
   background-color: #f4f4fd;
 }
 
-.team .container {
-  padding: 0 16px;
-}
-
 .team .section-title {
   margin-bottom: 72px;
 }
@@ -50,10 +46,6 @@
 }
 
 @media (min-width: 1158px) {
-  .team .container {
-    padding: 0 15px;
-  }
-
   .team-list {
     width: 1128px;
   }
